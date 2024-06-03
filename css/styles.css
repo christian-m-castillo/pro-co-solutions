@@ -124,9 +124,9 @@ p, em, a, li {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 5%;
-  margin-bottom: 10%;
 }
+
+
 
 .social-icons a {
   font-size: 1.5rem;
@@ -235,6 +235,17 @@ i {
     letter-spacing: 0.02rem;
     line-height: 1.6rem;
     font-size: 1.3rem;
+  }
+
+  .even-row div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .even-row div a {
+    font-size: 3.2vmin;
+    line-height: 4vmin;
   }
 }
 
